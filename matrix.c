@@ -21,6 +21,13 @@
 #define POWER 7
 #define ROWS 100
 #define COLS 100
+void mergematrix(int r1,int c,int matrix[][c],matrix[][c],matrix[][c])
+{ scanf("%d,%d",&r1&c);
+  matrix1=Rreadmatrix;
+ matrix2=Readmatrix;
+ matrix3=add(matrix1,matrix2):
+}
+
 void PrintMatrix(int r,int c,int Matrix[][c])
 { int i,j;
   for(i=0;i<r;i++)
@@ -75,7 +82,7 @@ int main(){
     while(num--)
     {
 
-        printf("Enter your choice\n");
+        printf("Enter your choice add\n");
         scanf("%d",&option);//Assume a valid choice
         switch(option)
         {
